@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embrace</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <nav>
@@ -21,28 +22,26 @@
         <section class="hero">
             <div class="hero_column">
                 <p class="hero_text_main">We Take Care Of Your Brand</p>
-                <p>We care about our wokr and we care about our clients.</p>
+                <p class="hero_desc">We care about our work and we care about our clients.</p>
                 <form action="post" class="hero_form">
-                    <input type="email" name="hero_email" id="hero_em" placeholder="Enter Your Email"/>
-                    <input type="submit" value="Let's talk">
+                    <input type="email" name="hero_email" id="hero_em" placeholder="Enter Your Email" class="hero_email"/>
+                    <input type="submit" value="Let's talk" class="hero_submit" />
                 </form>
             </div>
-            <div class="hero_img">
-                <img src="/img/introduction.png" alt="Happy people in figures with emojis">
-            </div>
+            <img src="/img/introduction.png" alt="Happy people in figures with emojis" class="hero_img">
         </section>
 
         <!-- Partners section -->
         <section class="companies">
             <p class="companies_text">Companies We Work With</p>
-            <div class="logo_row1">
-                <img src="/img/partners/spotify.png" alt="Spotify" class="partner_logo" />
-                <img src="/img/partners/google.png" alt="Google" class="partner_logo" />
-                <img src="/img/partners/uber.png" alt="Uber" class="partner_logo" />
-                <img src="/img/partners/microsoft.png" alt="Microsoft" class="partner_logo" />
-                <img src="/img/partners/shopify.png" alt="Shopify" class="partner_logo" />
+            <div class="logo_row">
+                <img src="/img/partners/spotify.png" alt="Spotify" class="partner_logo1" />
+                <img src="/img/partners/google.png" alt="Google" class="partner_logo1" />
+                <img src="/img/partners/uber.png" alt="Uber" class="partner_logo1" />
+                <img src="/img/partners/microsoft.png" alt="Microsoft" class="partner_logo1" />
+                <img src="/img/partners/shopify.png" alt="Shopify" class="partner_logo1" />
             </div>
-            <div class="logo_row2">
+            <div class="logo_row">
                 <img src="/img/partners/evernote.png" alt="Evernote" class="partner_logo" />
                 <img src="/img/partners/adobe.png" alt="Adobe" class="partner_logo" />
                 <img src="/img/partners/paypal.png" alt="PayPal" class="partner_logo" />
@@ -54,13 +53,13 @@
         <!-- Commitments section -->
         <section class="commitments">
             <div class="stats">
-                <div class="stats_column1">
+                <div class="stats_column">
                     <p class="stats_counter">245%</p>
                     <p class="stats_desc">More revenues for the brand</p>
                     <p class="stats_counter">50+</p>
                     <p class="stats_desc">Brands trust us</p>
                 </div>
-                <div class="stats_column2">
+                <div class="stats_column">
                     <p class="stats_counter">130K+</p>
                     <p class="stats_desc">Audience reached</p>
                     <p class="stats_counter">24+</p>
@@ -77,7 +76,7 @@
         <!-- How it works section -->
         <section class="how_it_works">
             <div class="hiw_column1">
-                <p class="section_text">How It Wokrs</p>
+                <p class="section_text">How It Works</p>
                 <p class="section_desc">We believe that the best way to create successful marketing campaigns is to work closely with our clients to understand their goals and challenges.</p>
                 <img src="/img/howitworks/workspace.png" alt="Desk with designing tools" class="hiw_img" />
             </div>
@@ -152,7 +151,7 @@
             <img src="/img/ourteam/team.png" alt="Our team" class="ot_img" />
             <div class="ot_column">
                 <p class="section_text">Meet Our Team</p>
-                <p class="section_text">Discover the brilliance behind Embrace. Our team blends innovation and artistry to craft digital wonders that captivate</p>
+                <p class="section_desc">Discover the brilliance behind Embrace. Our team blends innovation and artistry to craft digital wonders that captivate</p>
                 <a href="https://linkedin.com" class="link_rounded">Learn More</a>
             </div>
         </section>
@@ -174,7 +173,9 @@
             <div class="cta2_body">
                 <div class="cta2_column">
                     <p class="cta_h">Start Your Journey With Us Now</p>
-                    <a href="tel:888888888" class="link_rounded">Start Now</a>
+                    <div class="cta2_button_container">
+                        <a href="tel:888888888" class="link_rounded">Start Now</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -188,8 +189,8 @@
                 <p class="help_text">How We Can Help You?</p>
                 <p class="help_desc">Follow our newsletter. We will regulary update our latest project and availability.</p>
                 <form action="post" class="hero_form">
-                    <input type="email" name="hero_email" id="hero_em" placeholder="Enter Your Email"/>
-                    <input type="submit" value="Let's talk">
+                    <input type="email" name="hero_email" class="hero_email" placeholder="Enter Your Email"/>
+                    <input type="submit" value="Let's talk" class="hero_submit" />
                 </form>
                 <a href="https://wsiz.edu.pl" class="link_arrow">More FAQ →</a>
             </div>
