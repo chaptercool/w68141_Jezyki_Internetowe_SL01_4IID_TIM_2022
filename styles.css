@@ -19,14 +19,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     /* position: fixed; when applied, navbar size shrinks*/
-    padding: 18px, 120px;
+    /* padding: 18px, 120px; */
     background-color: #fff;
     border-bottom: 2px solid #0000002d;
-    height: 88px;
+    height: 8vw;
 }
 
 .nav_logo{
-    height: 40px;
+    max-width: 10%;
+    height: auto;
 }
 
 .nav_links_container {
@@ -48,15 +49,15 @@ nav {
     background-color: #3461FF;
     color: #fff;
     font-family: GeneralSans;
-    font-size: 16px;
-    padding: 16px 24px 16px 24px;
+    font-size: 1vw;
+    padding: 1em 2em 1em 2em;
     text-decoration: none;
     font-weight: 500;
 }
 
 /* hero */
 .hero{
-    padding: 100px 100px 70px 70px;
+    padding: 5vw 5vw 5vw 5vw;
     /* margin: 120px 120px 70px 70px; */
     justify-content: space-between;
     align-items: center;
@@ -93,7 +94,7 @@ nav {
     flex-direction: row;
     justify-content: left;
     align-items: left;
-    padding: 0 20px;
+    padding: 1vw 1vw 1vw 0vw;
 
 }
 
@@ -107,17 +108,17 @@ nav {
     color: #00000052;
     font-size: 1.2vw;
     background-color: #FAFAFA;
-    padding-left: 18px;
+    padding-left: 1vw;
 }
 
 .hero_submit{
-    width: 20%;
+    max-width: 30%;
     height: 3.4em;
     border-radius: 70px;
     border: 0 solid #3461FF;
     background-color: #3461FF;
     font-family: GeneralSans;
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #fff;
 }
 
@@ -130,7 +131,7 @@ nav {
 
 /* Partners */
 .companies{
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -142,14 +143,14 @@ nav {
     font-size: 2vw;
     font-family: GeneralSans;
     color: #000;
-    padding-top: 78px;
+    padding-top: 3vw;
 }
 
 .logo_row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px 10vw 10vw;
+    padding: 5vw 5vw 10vw 10vw;
 }
 
 .logo_row>* {
@@ -172,7 +173,7 @@ nav {
 /* Commitments */
 .commitments{
     /* flex-wrap: wrap; */
-    padding: 0 0 120px 120px;
+    padding: 5vw 5vw 0vw 5vw;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -185,7 +186,7 @@ nav {
 }
 
 .stats_column{
-    padding: 138px 137px 20px 20px;
+    padding: 4vw 5vw 4vw 5vw;
 }
 
 .stats_counter{
@@ -202,7 +203,7 @@ nav {
 }
 
 .commitments_desc{
-    padding: 137px 143px 0 0;
+    padding: 4vw 0 4vw 0;
 
 }
 
@@ -233,7 +234,7 @@ nav {
 /* How it works */
 
 .how_it_works{
-    padding: 0 0 120px 120px;
+    padding: 5vw 1vw 5vw 10vw;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -251,13 +252,13 @@ nav {
 }
 
 .hiw_column2{
-    margin-right: 120px;
+    margin-right: 9vw;
 }
 
 .hiw_ico_row{
     display: flex;
     flex-direction: row;
-    padding-bottom: 35px;
+    padding-bottom: 3vw;
 }
 
 .hiw_ico{
@@ -285,7 +286,7 @@ nav {
 /* Our work */
 
 .our_work{
-    padding: 0 0 120px 120px;
+    padding: 0vw 5vw 5vw 5vw;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -303,14 +304,14 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 52px;
+    padding-top: 2vw;
 }
 /* THIS IS THE IMAGES ITSELF */
 .ow_img{
     max-width: 90%;
     height: auto;
     width: 100%;
-    padding: 0 0 10px 10px;
+    padding: 0 0 1vw;
 }
 
 .ow_img_desc{
@@ -325,22 +326,22 @@ nav {
     background-color: #3461FF;
     color: #fff;
     font-family: GeneralSans;
-    font-size: 1.8vw;
-    padding: 16px 48px 16px 48px;
+    font-size: 1vw;
+    padding: 1em 2em 1em 2em;
     text-decoration: none;
     font-weight: 500;
-    display: inline-block
+    display: inline-block;
 }
 
 /* CTA */
 .cta_banner{
-    padding: 0 0 120px 120px;
+    padding: 5vw 5vw 5vw 5vw;
     justify-content: space-between;
     align-items: center;
 }
 
 .cta_body{
-    border-radius: 32px;
+    border-radius: 3vw;
     background-color: #3561ff;
 }
 
@@ -351,15 +352,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 0 0 0;
+    margin-right: 5vw;
 }
 
 .cta_h{
     font-size: 4vw;
     font-family: GeneralSans;
     font-weight: 500;
-    padding-left: 74px;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-left: 6vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
     color: #fff;
 }
 
@@ -377,14 +379,13 @@ nav {
 }
 
 .cta_button{
-    max-height: 64px;
     width: auto;
     border-radius: 64px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #000;
     font-family: GeneralSans;
-    font-size: 1.2vw;
-    padding: 16px 48px 16px 48px;
+    font-size: 1vw;
+    padding: 1em 2em 1em 2em;
     text-decoration: none;
     font-weight: 500;
 }
@@ -392,7 +393,7 @@ nav {
 /* Our team */
 
 .ourteam{
-    padding: 0 0 120px 120px;
+    padding: 5vw 5vw 5vw 5vw;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -407,17 +408,17 @@ nav {
 
 .ot_column{
     margin-top: 0;
-    padding-left: 102px;
-    padding-right: 120px;
+    padding-left: 10vw;
+    padding-right: 0vw;
 }
 
 .link_team_container{
-    padding-top: 159px;
+    padding-top: 6vw;
 }
 
 /* Testimonial */
 .testimonial{
-    padding: 0 0 120px 120px;
+    padding: 5vw 5vw 5vw 5vw;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -431,36 +432,37 @@ nav {
 }
 
 .tst_button{
-    max-width: 85px;
-    max-height: 85px;
-    padding-right: 20px;
+    max-width: 5vw;
+    height: auto;
+    padding-right: 1vw;
 }
 
 .tst_scroller{
-    padding-left: 113px;
+    padding-left: 11vw;
 }
 
 /* CTA banner 2 */
 
 .cta_banner2{
-    padding: 0 0 120px 120px;
+    padding: 5vw 5vw 5vw 5vw;
     justify-content: space-between;
     align-items: center;
 }
 
 .cta2_body{
-    border-radius: 32px;
+    border-radius: 3vw;
     background-color: #232038;
 }
 /* not working */
 .cta2_button_container{ 
-    padding-left: 76px;
+    padding-left: 6vw;
+    padding-bottom: 5vw;
 }
 
 
 /* Help */
 .help{
-    padding: 0 0 120px 120px;
+    padding: 5vw 5vw 5vw 5vw;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -472,7 +474,7 @@ nav {
 }
 
 .help_column2{
-    padding-right: 120px;
+    padding-right: 0vw;
 }
 
 .help_text{
@@ -490,8 +492,8 @@ nav {
 
 footer{
     background-color: #000;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     justify-content: space-between;
     display: flex;
 }
@@ -513,11 +515,11 @@ footer{
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    padding-left: 671px;
+    padding-left: 46vw;
 }
 
 .footer_subrow a{
-    padding-right: 30px;
+    padding-right: 4vw;
 }
 
 
