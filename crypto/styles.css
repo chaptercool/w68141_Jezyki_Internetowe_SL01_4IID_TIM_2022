@@ -298,6 +298,7 @@ main{
     display: flex;
     flex-direction: row;
     padding-top: 2vw;
+    padding-bottom: 1vw;
 }
 
 .filter_L{
@@ -395,4 +396,191 @@ main{
     border-radius: 0.4vw;
     height: 1.2vw;
     background-color: none;
+}
+
+/* TABLE (ew.) */
+
+table{
+    border-collapse: collapse;
+}
+
+.table_row_ico{
+    max-width: 1.5vh;
+    height: auto;
+}
+
+td, thead{
+    border-bottom: #EFF2F5 0.1vw solid;
+    border-top: #EFF2F5 0.1vw solid;
+}
+
+th{
+    font-family: Helvetica_bold;
+    font-size: 1.5vh;
+    color: black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-bottom: #EFF2F5 0.1vw solid;
+    text-align: right;
+    padding-right: 1vw;
+}
+
+.crypto_table_header_cell{
+    text-align: left;
+}
+
+td{
+    font-family: Helvetica;
+    font-size: 1.5vh;
+    color: black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+    align-items: center;
+}
+
+.table_rownum{
+    color: #58667E;
+}
+
+.table_row_currlogo{
+    max-width: 2.7vh;
+    height: auto;
+    padding-right: 0.5vw;
+    shape-outside: circle();
+}
+
+.table_row_abrr{
+    color: #616E85;
+}
+
+.table_row_stat_positive{
+    color: #16c784;
+}
+
+.table_row_stat_negative{
+    color: #EA3943;
+}
+
+.table_cell_twodatas{
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+}
+
+.table_row_subnum{
+    color:#616E85;
+    padding-top: 0.2vw;
+}
+
+.table_row_stat_img{
+    filter: hue-rotate(300deg) saturate(210%) brightness(0.7) contrast(170%);
+}
+
+.table_row_stat_img_pos{
+    filter: hue-rotate(100deg) saturate(210%) brightness(0.7) contrast(170%);
+}
+
+/* CTA banner */
+.cta_banner{
+    display: flex;
+    flex-direction: row;
+    background-color: #F8FAFD;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 2vw;
+    padding-top: 1vw;
+    border-bottom: #EFF2F5 0.1vw solid;
+}
+
+.cta_misc_title{
+    font-family: Helvetica_bold;
+    font-size: 4vh;
+    color: #0D1421;
+    padding-top: 2vw;
+    padding-bottom: 0.2vw;
+}
+
+.cta_misc_desc{
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 2vh;
+    color: #58667E;
+    padding-bottom: 1vw;
+    line-height: 1.3;
+}
+
+.cta_email_spammer{
+    font-family: Helvetica;
+    font-weight: 550;
+    font-size: 1.6vh;
+    color: #A6B0C3;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    border: #EFF2F5 0.1vw solid;
+    border-radius: 0.5vw;
+    background-color: #EFF2F5;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 0.8vw;
+    width: 20vw;
+}
+
+.cta_email_spam_confirm{
+    font-family: Helvetica_bold;
+    font-size: 1.6vh;
+    color: white;
+    background-color: #3861FB;
+    border: none;
+    border-radius: 0.5vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    margin-left: 0.2vw;
+}
+
+.cta_img{
+    margin-left: 6vw;
+}
+
+/* Footer */
+footer{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_logo{
+    max-height: 1.8vw;
+    width: auto;   
+}
+
+.footer_container_column{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    font-family: Helvetica;
+}
+
+.footer_column_title{
+    font-weight: bolder;
+}
+
+.footer_column_link{
+    color: #58667E;
+    text-decoration: none;
+    margin-bottom: 0.6vw;
+}
+
+.footer_copyr{
+    font-family: Helvetica;
+    font-size: 1.5vh;
+    color: #58667E;
 }
